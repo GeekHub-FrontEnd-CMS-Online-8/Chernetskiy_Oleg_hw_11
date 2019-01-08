@@ -182,6 +182,13 @@
   .sec1_button a:hover {
     background-color: rgba(255, 255, 255, 0.2); }
 
+.slick-prev, .slick-next {
+  width: 50px;
+  height: 50px; }
+
+.slick-prev:before, .slick-next:before {
+  font-size: 34px; }
+
 .sec_2 {
   background-color: #e3e3e3;
   padding: 73px 0 30px; }
@@ -325,7 +332,8 @@
 
 .sec3_box {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  flex-wrap: wrap; }
 
 .sec3_item {
   width: 270px;
@@ -408,6 +416,92 @@
   letter-spacing: 1.4px;
   text-align: center; }
 
+.sec_5 {
+  background: #ffffff url(../img/cover_2.png) 50% 50% no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  padding: 67px 0 56px; }
+
+.sec5_title {
+  color: #3e3d3d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+  letter-spacing: 0.44px; }
+
+.sec5_text {
+  color: #3e3d3d;
+  font-family: 'Crimson Text', serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 1.4px;
+  max-width: 990px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 33px 0 33px; }
+
+.sec5_team {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.sec5_team_item {
+  position: relative;
+  width: 271px;
+  height: 338px;
+  margin: 15px; }
+
+.sec5_team_item img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.sec5_team_item_text {
+  width: 256px;
+  height: 321px;
+  top: 9px;
+  left: 7px;
+  position: absolute;
+  background-color: rgba(246, 246, 246, 0.82);
+  padding: 210px 19px 0;
+  opacity: 0; }
+  .sec5_team_item_text:hover {
+    opacity: 1; }
+
+.sec5_team_name {
+  color: #3e3d3d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1.47px; }
+
+.sec5_team_prof {
+  color: #3e3d3d;
+  font-family: 'Crimson Text', serif;
+  font-size: 14px;
+  font-style: italic;
+  padding: 8px 0; }
+  .sec5_team_prof:after {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #515151;
+    width: 146px;
+    line-height: 10px;
+    padding: 4px; }
+
+.sec5_soc {
+  zoom: 0.7;
+  padding: 9px 0; }
+
+.sec5_soc a {
+  color: #3e3d3d; }
+  .sec5_soc a:hover {
+    color: #a4a4a4; }
+
 .sec_6 {
   padding: 77px 0 60px; }
 
@@ -436,7 +530,8 @@
 .sec6_links {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  flex-wrap: wrap; }
 
 .sec6_links a {
   color: #3e3d3d;
@@ -652,6 +747,83 @@
 .sec10_links a {
   text-decoration: none;
   padding: 20px 10px; }
+
+.sec_13 {
+  background: #ffffff url(../img/cover_3.png) 50% 50% no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  padding: 71px 5px; }
+
+.sec13_carousel {
+  max-width: 800px;
+  margin: 0 auto; }
+
+.slick-dots li {
+  margin: 0 1.5px;
+  width: 12px;
+  height: 12px; }
+
+.slick-dots li button:before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #c5c5c5;
+  opacity: 1; }
+
+.slick-dots li button:hover:before,
+.slick-dots li.slick-active button:before {
+  background: #ffffff; }
+
+.sec13_carousel_item {
+  outline: none; }
+
+.sec13_carousel_item img {
+  margin: 0 auto; }
+
+.sec13_carousel_text {
+  color: #efefef;
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 17px;
+  text-align: center;
+  padding: 45px 0; }
+
+.sec13_large1 {
+  color: #efefef;
+  font-family: 'Crimson Text', serif;
+  font-size: 80px;
+  position: relative;
+  top: 35px;
+  right: 10px; }
+
+.sec13_large2 {
+  color: #efefef;
+  font-family: 'Crimson Text', serif;
+  font-size: 80px;
+  position: relative;
+  top: 5px;
+  left: 5px; }
+
+.sec13_carousel_name {
+  color: #e3e3e3;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.47px;
+  text-align: center;
+  padding: 14px 0; }
+
+.sec13_carousel_co {
+  color: #efefef;
+  font-family: 'Crimson Text', serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  padding: 4px 0 35px; }
 
 .sec_14 iframe {
   min-width: 100%; }

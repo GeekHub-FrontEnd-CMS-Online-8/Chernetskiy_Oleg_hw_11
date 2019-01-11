@@ -1,0 +1,220 @@
+.post_top
+  background: #3c5359 url(../img/cover_top_bwsb2.png) 50% 50% no-repeat
+  background-size: cover
+  min-width: 100%
+  padding: 120px 0
+
+.post_columns
+  max-width: 1200px
+  display: flex
+  justify-content: space-between
+  margin: auto
+  padding: 80px 0
+
+.post_sec1
+  background-color: #e3e3e3
+
+.post_main_box
+  max-width: 821px
+
+.post_text_in-frame
+  color: #3e3d3d
+  font-family: 'Crimson Text', serif
+  font-size: 16px
+  font-weight: 700
+  font-style: italic
+  line-height: 25px
+  letter-spacing: 1.6px
+  border: 2px solid #a8a8a8
+  padding: 63px 45px
+
+.post_box_item_sub-text
+  padding: 40px 0
+
+.post_box_item_text
+  color: #3e3d3d
+  font-family: 'Crimson Text', serif
+  font-size: 14px
+  font-weight: 400
+  line-height: 25px
+  letter-spacing: 1.4px
+  padding: 15px 0
+
+.post_main_links
+  display: flex
+  justify-content: center
+  z-index: 1100
+
+.post_main_line1:after
+  content: ""
+  display: block
+  position: absolute
+  border-bottom: 1px solid #b7b7b7
+  width: 821px
+  padding: 20px 0
+
+.post_main_line:after
+  content: ""
+  display: block
+  position: absolute
+  border-bottom: 1px solid #b7b7b7
+  width: 821px
+  margin: 15px 0
+
+.post_main_links a
+  color: #818181
+  text-decoration: none
+  margin: 2.5px
+
+.post_link_sircle i
+  margin-top: 6px
+  color: #818181
+
+  &:hover
+    color: #e3e3e3
+
+.post_link_sircle
+  width: 31px
+  height: 31px
+  border: 1px solid #818181
+  border-radius: 50%
+  display: flex
+  justify-content: center
+
+  &:hover
+    background-color: #818181
+    color: #e3e3e3
+
+.post_comments_title_pad
+  padding: 60px 0 20px
+
+.post_comments_item
+  display: flex
+  align-items: start
+  padding: 30px 0
+
+.post_comments_reply
+  padding-left: 100px
+
+.post_comments_box
+  padding: 10px 47px 0 28px
+
+.post_comments_name
+  color: #3e3d3d
+  font-family: 'Montserrat', sans-serif
+  font-size: 13px
+  font-weight: 700
+  text-transform: uppercase
+  letter-spacing: 1.47px
+
+.post_comments_date
+  color: #3e3d3d
+  font-family: 'Crimson Text', serif
+  font-size: 14px
+  font-style: italic
+  padding: 8px 0 20px
+
+.post_comments_text
+  color: #3e3d3d
+  font-family: 'Crimson Text', serif
+  font-size: 14px
+  font-weight: 400
+  line-height: 25px
+  letter-spacing: 1.4px
+
+.post_comments_link
+  font-family: 'Crimson Text', serif
+  font-size: 14px
+  font-style: italic
+  text-align: right
+  padding: 36px 0 15px
+
+.post_comments_line
+  content: ""
+  display: block
+  position: absolute
+  border-bottom: 1px solid #b7b7b7
+  width: 721px
+  margin: 15px 0
+
+.post_comments_line1
+  content: ""
+  display: block
+  position: absolute
+  border-bottom: 1px solid #b7b7b7
+  width: 621px
+  margin: 15px 0
+
+.post_comments_link a
+  text-decoration: none
+  color: #3e3d3d
+
+.post_form_title
+  padding: 60px 0 30px
+
+.post_but_send
+  width: 135px
+  height: 39px
+  border: 2px solid #464646
+  background-color: #464646
+  color: #e3e3e3
+  font-size: 13px
+  font-weight: 400
+  font-family: 'Montserrat', sans-serif
+  margin: 10px 15px
+
+  &:hover
+    background-color: #e3e3e3
+    color: #464646
+
+@media screen and (max-width: 768px)
+  .post_main_box
+    width: 100%
+
+  .post_main_image img
+    width: 100%
+
+  .post_main_line1:after
+    width: 100%
+    padding: 20px 0
+
+  .post_main_line:after
+    width: 100%
+    margin: 15px 0
+
+  .post_comments_line
+    width: 85%
+    margin: 15px 0
+
+  .post_comments_line1
+    width: 72%
+    margin: 15px 0
+
+@media screen and (max-width: 425px)
+  .post_main_box
+    width: 100%
+
+  .post_comments_line
+    width: 66%
+    margin: 15px 0
+
+  .post_comments_line1
+    width: 50%
+    margin: 15px 0
+
+  .post_comments_box
+    padding: 10px 15px 0 15px
+
+  .post_comments_reply
+    padding-left: 80px
+
+@media screen and (max-width: 320px)
+  .post_comments_line1
+    width: 50%
+    margin: 15px 0
+
+  .post_comments_box
+    padding: 10px 5px 0 5px
+
+  .post_comments_reply
+    padding-left: 65px

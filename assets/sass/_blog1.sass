@@ -34,7 +34,8 @@
   padding: 70px 0
 
 .container-fluid
-  max-width: 1250px
+  max-width: 1200px
+  margin: 0 auto
 
 .item
   margin: 15px 15px
@@ -56,6 +57,7 @@
   font-family: 'Crimson Text', serif
   font-size: 14px
   font-style: italic
+  padding-top: 14px
 
   &:after
     content: ""
@@ -70,7 +72,7 @@
   font-family: 'Crimson Text', serif
   font-size: 14px
   font-style: italic
-  padding: 0 0 9px
+  padding: 15px 0 9px
 
   &:after
     content: ""
@@ -111,12 +113,18 @@
 
 @media screen and (max-width: 769px)
   .container-fluid
-    max-width: 415px
+    max-width: 400px
 
 @media screen and (max-width: 375px)
   .item img
     width: 310px
 
+  .container-fluid
+    max-width: 330px
+
 @media screen and (max-width: 320px)
   .item img
     width: 265px
+
+  .container-fluid
+    max-width: 300px
